@@ -42,7 +42,7 @@ html, body {
   border-radius: 100%;
   box-sizing: border-box;
   border: 2px solid turquoise;
-  box-shadow: 0 0 60px white, inset 0 0 60px white;
+  box-shadow: 0 0 60px red, inset 0 0 60px red;
 }
 .plane.main .circle::before, .plane.main .circle::after {
   content: "";
@@ -56,10 +56,10 @@ html, body {
   width: 10%;
   height: 10%;
   border-radius: 100%;
-  background: white;
+  background: red;
   box-sizing: border-box;
   border: 2px solid turquoise;
-  box-shadow: 0 0 60px 2px white;
+  box-shadow: 0 0 60px 2px red;
 }
 .plane.main .circle::before {
   -webkit-transform: translateZ(-90px);
