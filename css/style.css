@@ -41,8 +41,8 @@ html, body {
           transform-style: preserve-3d;
   border-radius: 100%;
   box-sizing: border-box;
-  border: 2px solid white;
-  box-shadow: 0 0 60px turquoise, inset 0 0 60px turquoise;
+  border: 2px solid turquoise;
+  box-shadow: 0 0 60px white, inset 0 0 60px white;
 }
 .plane.main .circle::before, .plane.main .circle::after {
   content: "";
@@ -56,10 +56,10 @@ html, body {
   width: 10%;
   height: 10%;
   border-radius: 100%;
-  background: turquoise;
+  background: white;
   box-sizing: border-box;
-  border: 2px solid white;
-  box-shadow: 0 0 60px 2px turquoise;
+  border: 2px solid turquoise;
+  box-shadow: 0 0 60px 2px white;
 }
 .plane.main .circle::before {
   -webkit-transform: translateZ(-90px);
